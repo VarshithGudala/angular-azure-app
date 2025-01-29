@@ -23,6 +23,9 @@
             "assets": [
               {
                 "glob": "**/*",
+		"src/favicon.ico",
+		"src/assets",
+  		"src/web.config",
                 "input": "public"
               }
             ],
@@ -81,6 +84,9 @@
             "assets": [
               {
                 "glob": "**/*",
+		"src/favicon.ico",
+  		"src/assets",
+  		"src/web.config",
                 "input": "public"
               }
             ],
