@@ -18,13 +18,13 @@ jobs:
       with:
         node-version: '18'  # Ensure this matches the Azure Web App runtime
 
-    - name: Install dependencies
+    - name: Install dependencies1
       run: npm install
 
-    - name: Build Angular application
+    - name: Build Angular application1
       run: npm run build -- --configuration production
 
-    - name: Deploy to Azure Web App
+    - name: Deploy to Azure Web App1
       uses: azure/webapps-deploy@v3
       with:
         app-name: "angular-azure-app"  # Ensure it matches the Azure Web App name
